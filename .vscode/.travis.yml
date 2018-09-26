@@ -5,10 +5,9 @@ python:
 
 install:
     - pip install -r requirements.txt
-    - pip install pytest-cov
-    - pip install coveralls
 
-scripts:
+
+script:
     - pytest --cov=app/
 
 after_success:
