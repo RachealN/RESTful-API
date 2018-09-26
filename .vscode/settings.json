@@ -1,0 +1,13 @@
+{
+    "python.pythonPath": "C:\\Users\\Andela Uganda\\AppData\\Local\\Programs\\Python\\Python36-32\\python.exe",
+    "python.unitTest.unittestArgs": [
+        "-v",
+        "-s",
+        "./flash",
+        "-p",
+        "test_*.py"
+    ],
+    "python.unitTest.pyTestEnabled": false,
+    "python.unitTest.nosetestsEnabled": false,
+    "python.unitTest.unittestEnabled": true
+}
