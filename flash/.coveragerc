@@ -1,0 +1,22 @@
+[report]
+omit=
+    */__pycache__/*
+    */venv/*
+    */__init__.py
+    */aniso8601
+    */astroid
+    */atomicwrites
+    */attrs
+    */autopep8
+    */base_events.py
+    */base_futures.py
+    */subprocess.py
+    */base_tasks.py
+    */compat.py
+    */constants.py
+    */coroutines.py
+    */events.py
+
+
+
+
