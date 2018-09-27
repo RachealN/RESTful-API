@@ -8,4 +8,4 @@ install:
     - pip install coveralls
 
 script:
-    - python tests/test_api.py
+    - nosetests tests/test_api.py
