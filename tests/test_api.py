@@ -34,7 +34,7 @@ class Testing(unittest.TestCase):
                                     content_type='application/json',
                                     data=json.dumps(entry)
                                     )
-        # result = self.client().get('/ api/v2/resources/entries/')
+       
         self.assertEqual(result.status_code, 201)
 
     def test_unavailable_fetch(self):
@@ -91,7 +91,7 @@ class Testing(unittest.TestCase):
                                     content_type='application/json',
                                     data=json.dumps(entry)
                                     )
-        # result = self.client().get('/ api/v2/resources/entries/')
+        
         entry_list.append(entry)
         self.assertEqual(result.status_code, 201)
         
