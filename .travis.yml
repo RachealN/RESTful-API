@@ -9,8 +9,10 @@ install:
     - pip install coveralls
 
 script:
-    - python -m unittest -v
+    - pytest --cov=flash/
 
 after_success:
     - coveralls
 
+after_script:
+    - coveralls
